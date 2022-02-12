@@ -1,0 +1,48 @@
+.nav-container {
+    margin: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    padding: 1rem;
+    border: 0;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.text.links .items {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.text.links .items:hover:nth-child(2) {
+    color: var(--color-error);
+}
+
+.text.links .items:hover:nth-child(3) {
+    color: var(--color-info);
+}
+
+.text.links .items:nth-child(3) {
+    color: var(--color-success);
+}
+
+.text.links .items:nth-child(1) {
+    margin-right: 2rem;
+}
+
+.header input.input {
+    width: 26rem;
+}
+
+.header .title {
+    margin-left: 1.5rem;
+}
+
+.input-icon .icon img {
+    bottom: 50px;
+}
