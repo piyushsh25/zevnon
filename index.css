@@ -1,48 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
 .nav-container {
-    margin: 0;
+    margin: var(--size0);
     width: 100%;
+    top: var(--size0);
     position: sticky;
-    top: 0;
-    padding: 0;
-    padding: 1rem;
-    border: 0;
-    background-color: aliceblue;
-    position: relative;
+    padding: var(--size0);
+    padding: var(--size8);
+    border: var(--size0);
+    z-index: 1;
+    background-color: rgb(221, 107, 215);
 }
 
 .text.links .items {
-    margin: 0;
-    font-size: 1.2rem;
-    margin-left: 1.5rem;
+    margin: var(--size0);
+    font-size: var(--size10);
+    margin-left: var(--size3);
     justify-content: center;
     align-content: center;
     cursor: pointer;
 }
 
-.text.links .items:hover:nth-child(2) {
-    color: var(--color-error);
+.text.links .items:nth-child(1) {
+    width: var(--size40);
+    height: var(--size20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--size7);
+    background-color: var(--color-success);
+    color: var(--color-white);
 }
 
-.text.links .items:hover:nth-child(3) {
-    color: var(--color-info);
-}
-
-.text.links .items:nth-child(3) {
+.text.links .items:nth-child(1):hover {
+    background-color: var(--color-white);
     color: var(--color-success);
 }
 
-.text.links .items:nth-child(1) {
-    margin-right: 2rem;
+.text.links .items:nth-child(2) {
+    /* border: 2px solid black; */
+    width: 8rem;
+    height: var(--size20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--size7);
+    background-color: var(--color-white);
 }
 
-.header input.input {
-    width: 26rem;
+.text.links .items:nth-child(2):hover {
+    color: var(--color-white);
+    background-color: var(--color-icon);
+}
+
+.text.links .items:hover:nth-child(3) {
+    color: var(--color-error);
+}
+
+.text.links .items:nth-child(4) {
+    color: var(--color-success);
+}
+
+.text.links .items:hover:nth-child(4) {
+    color: var(--color-info);
 }
 
 .header .title {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 
-.input-icon .icon img {
-    bottom: 50px;
+.items .avatar-badge.md {
+    bottom: 30%;
+}
+
+.avatar-badge.md .badge.text {
+    top: -10px;
+}
+
+.body-div {
+    position: relative;
+}
+
+.img {
+    width: 50%;
+}
+
+.body-div .body-div-content:nth-child(even) {
+    position: absolute;
+    top: 0%;
+    left: 33%;
+    padding: var(--size6) var(--size8);
+    font-weight: bolder;
+    color: white;
+}
+
+.body-div .body-div-content:nth-child(odd) {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: rgb(14, 81, 190);
+    border: var(--size1) solid var(--color-white);
+    font-weight: bolder;
+    padding: var(--size6) var(--size8);
+}
+
+.body-div .body-div-content:nth-child(odd):hover {
+    background-color: var(--color-icon);
+}
+
+.shopping-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: var(--size0) var(--size10);
+}
+
+.card {
+    margin: var(--size20);
+}
+
+.card .text-div .header-top {
+    color: blue;
+    padding: var(--size0) 10%;
+    font-size: 1.5rem;
+    font-family: 'BioRhyme', serif;
+    font-weight: bolder;
+}
+
+.text-overlay-card .text-div .header-top {
+    top: 0%;
+    left: 0%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    margin-left: var(--size0);
+}
+
+.card.text-overlay-card .text-div .header-bottom {
+    margin-left: var(--size0);
+    left: var(--size0);
+    top: 52%;
+    padding: var(--size0) 10%;
+    font-size: 1.5rem;
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+.card .text-div .card-icons.icons {
+    margin-left: 10%;
+    font-size: var(--size10);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--size20);
+    background: var(--color-success);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width:940px) {
+    .body-div-content {
+        font-size: 20px;
+    }
+    .text.links .items.items-signup {
+        display: none;
+    }
+    .card {
+        margin: var(--size12);
+    }
+}
+
+@media only screen and (max-width:1125px) {
+    .text.links .items {
+        display: none;
+    }
 }
