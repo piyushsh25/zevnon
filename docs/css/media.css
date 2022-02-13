@@ -1,0 +1,17 @@
+@media only screen and (max-width:940px) {
+    .body-div-content {
+        font-size: 20px;
+    }
+    .text.links .items.items-signup {
+        display: none;
+    }
+    .card {
+        margin: var(--size12);
+    }
+}
+
+@media only screen and (max-width:1125px) {
+    .text.links .items {
+        display: none;
+    }
+}
