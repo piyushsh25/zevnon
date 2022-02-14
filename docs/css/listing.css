@@ -1,0 +1,109 @@
+.body-container {
+    position: relative;
+}
+
+.side-bar {
+    font-weight: bold;
+}
+
+
+/* main filter */
+
+.filter-div-lg {
+    position: fixed;
+    background: var(--color-white);
+    width: 20%;
+    height: 100vh;
+    padding: 3rem 2rem 1rem;
+    box-shadow: 2px 2px 1.5rem black;
+}
+
+
+/* bar icon */
+
+.filter-div-md {
+    position: fixed;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    padding: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    left: 15%;
+}
+
+.category-selector,
+.price-selector,
+.rating-selector,
+.discount-percentage {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+.filter-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+input,
+label {
+    padding: var(--size5);
+}
+
+.filter-div-md:hover {
+    border: 2px solid var(--color-icon);
+}
+
+.card .card-icons.text-icon {
+    white-space: nowrap;
+}
+
+.shopping-section {
+    margin-left: 25%;
+}
+
+
+/* the product header(name) */
+
+.shopping-section .card .text-div .header-top {
+    font-size: var(--size10);
+    padding: 0;
+}
+
+
+/* product price */
+
+.shopping-section .text-div .header-bottom {
+    font-size: var(--size10);
+    display: flex;
+}
+
+
+/* product original price */
+
+.shopping-section .card .text-div .header-bottom .selling-price {
+    text-decoration: line-through;
+    margin-left: var(--size12);
+    color: var(--color-error);
+}
+
+
+/* delivery message */
+
+.product-location .message {
+    margin-left: var(--size7);
+    margin-bottom: var(--size2);
+}
+
+.location-success {
+    color: var(--color-success);
+}
+
+.location-error {
+    color: var(--color-error);
+}
+
+.location-not-known {
+    color: var(--color-info);
+}

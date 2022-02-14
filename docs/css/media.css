@@ -1,4 +1,5 @@
 @media only screen and (max-width:940px) {
+    /* homepage */
     .body-div-content {
         font-size: 20px;
     }
@@ -8,9 +9,20 @@
     .card {
         margin: var(--size12);
     }
+    /* for product listing page */
+    .filter-div-lg {
+        display: none;
+    }
+    .shopping-section {
+        margin-left: 0
+    }
+    .body-container .filter-div-md {
+        left: 0%;
+    }
 }
 
 @media only screen and (max-width:1125px) {
+    /* home page */
     .text.links .items {
         display: none;
     }
