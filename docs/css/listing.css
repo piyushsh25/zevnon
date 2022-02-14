@@ -18,6 +18,19 @@
     box-shadow: 2px 2px 1.5rem black;
 }
 
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-header .clear-filter {
+    font-size: var(--size10);
+    text-decoration: underline;
+    margin-top: var(--size5);
+    cursor: pointer;
+    color: rgb(0, 0, 255);
+}
+
 
 /* bar icon */
 
