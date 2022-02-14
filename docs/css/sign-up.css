@@ -1,0 +1,58 @@
+.main-login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-signup-login {
+    width: 45%;
+}
+
+.form label {
+    margin-left: 10px;
+}
+
+.form .input {
+    width: 90%;
+    margin-top: 2px;
+}
+
+.login-message {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+input.submit {
+    width: 20%;
+}
+
+.form-signup-login {
+    box-shadow: 2px 2px 10px black;
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+.change-method {
+    color: blue;
+}
+
+.other-login-methods {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-elements {
+    margin: 2rem 0;
+    padding: 1%;
+    width: 20%;
+}
+
+.footer-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
