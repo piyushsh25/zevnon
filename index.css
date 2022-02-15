@@ -65,7 +65,7 @@
 }
 
 .header .title {
-    margin-left: 1rem;
+    margin-left: var(--size8);
 }
 
 .items .avatar-badge.md {
@@ -90,7 +90,7 @@
     left: 33%;
     padding: var(--size6) var(--size8);
     font-weight: bolder;
-    color: white;
+    color: var(--color-white);
 }
 
 .body-div .body-div-content:nth-child(odd) {
@@ -118,9 +118,9 @@
 }
 
 .card .text-div .header-top {
-    color: blue;
+    color: rgb(0, 0, 255);
     padding: var(--size0) 10%;
-    font-size: 1.5rem;
+    font-size: var(--size12);
     font-family: 'BioRhyme', serif;
     font-weight: bolder;
 }
@@ -138,7 +138,7 @@
     left: var(--size0);
     top: 52%;
     padding: var(--size0) 10%;
-    font-size: 1.5rem;
+    font-size: var(--size12);
     color: var(--color-black);
     background-color: var(--color-white);
 }
