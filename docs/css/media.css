@@ -1,8 +1,21 @@
+@media only screen and (max-width: 638px) {
+    .nav-container .links {
+        margin: 0 0 0 var(--size15);
+    }
+    .body-div .body-div-content:nth-child(odd) {
+        top: 0%;
+        margin-top: 30%;
+    }
+    .nav-container .text.links .items.items-login {
+        display: none;
+    }
+}
+
 @media only screen and (max-width:940px) {
     .body-div-content {
         font-size: 20px;
     }
-    .text.links .items.items-signup {
+    .nav-container .text.links .items.items-signup {
         display: none;
     }
     .card {
