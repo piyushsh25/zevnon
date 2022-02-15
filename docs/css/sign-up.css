@@ -66,7 +66,7 @@
 
 .footer-elements {
     margin: var(--size16) var(--size0);
-    padding: 1%;
+    padding: var(--size2);
     width: 20%;
 }
 
