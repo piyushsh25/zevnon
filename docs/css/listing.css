@@ -12,10 +12,10 @@
 .filter-div-lg {
     position: fixed;
     background: var(--color-white);
-    width: 20%;
+    width: var(--size20P);
     height: 100vh;
-    padding: 3rem 2rem 1rem;
-    box-shadow: 2px 2px 1.5rem black;
+    padding: var(--size24) var(--size24) var(--size8);
+    box-shadow: var(--size1) var(--size1) var(--size10) var(--color-black);
 }
 
 .filter-header {
@@ -37,10 +37,10 @@
 .filter-div-md {
     position: fixed;
     text-align: center;
-    width: 3rem;
-    height: 3rem;
+    width: var(--size24);
+    height: var(--size24);
     padding: 5px;
-    font-size: 2rem;
+    font-size: var(--size16);
     cursor: pointer;
     left: 15%;
 }
@@ -51,7 +51,7 @@
 .discount-percentage {
     display: flex;
     flex-direction: column;
-    margin: 1.5rem 0;
+    margin: var(--size10) 0;
 }
 
 .filter-price {
@@ -95,7 +95,7 @@ label {
 
 /* product original price */
 
-.shopping-section .card .text-div .header-bottom .selling-price {
+.shopping-section .selling-price {
     text-decoration: line-through;
     margin-left: var(--size12);
     color: var(--color-error);
