@@ -5,6 +5,16 @@
     align-items: center;
 }
 
+.nav-container {
+    padding: var(--size0);
+    border: var(--size0);
+}
+
+.nav-container .title-logo,
+.nav-container .title {
+    margin-top: var(--size5);
+}
+
 .form-signup-login .nav-container {
     background-color: inherit;
 }
