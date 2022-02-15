@@ -20,9 +20,15 @@
     margin-top: var(--size5);
 }
 
+
+/* submit button */
+
 input.submit {
     width: 30%;
 }
+
+
+/* signup login form */
 
 .form-signup-login {
     background-color: var(--color-white);
@@ -32,15 +38,15 @@ input.submit {
     border-bottom: var(--size1) solid var(--color-black);
 }
 
+
+/* link to signup login instead */
+
 .change-method {
     color: rgba(0, 0, 255, 0.945);
 }
 
-.other-login-methods {
-    font-size: var(--size15);
-    display: flex;
-    justify-content: space-between;
-}
+
+/* other ways to signup - login */
 
 .footer-elements {
     margin: var(--size16) var(--size0);
@@ -53,4 +59,10 @@ input.submit {
     margin-bottom: var(--size8);
     display: flex;
     justify-content: center;
+}
+
+.other-login-methods {
+    font-size: var(--size15);
+    display: flex;
+    justify-content: space-between;
 }
