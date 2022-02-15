@@ -79,7 +79,7 @@ label {
 
 /* the product header(name) */
 
-.shopping-section .card .text-div .header-top {
+.card .text-div .header-top {
     font-size: var(--size10);
     padding: 0;
 }
@@ -87,7 +87,7 @@ label {
 
 /* product price */
 
-.shopping-section .text-div .header-bottom {
+.text-div .header-bottom {
     font-size: var(--size10);
     display: flex;
 }
