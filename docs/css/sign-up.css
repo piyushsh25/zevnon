@@ -11,13 +11,16 @@
 
 .form .input {
     width: 90%;
-    margin-top: var(--size1);
+    margin-top: var(--size0);
     border-radius: var(--size4);
 }
 
 .login-message {
-    font-size: var(--size14);
+    font-size: var(--size10);
     margin-top: var(--size5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -25,6 +28,12 @@
 
 input.submit {
     width: 30%;
+    border-radius: 8px;
+}
+
+.input,
+.submit {
+    margin: var(--size4);
 }
 
 
@@ -32,7 +41,7 @@ input.submit {
 
 .form-signup-login {
     background-color: var(--color-white);
-    margin-top: var(--size8);
+    margin-top: var(--size1);
     border-radius: var(--size2);
     border: var(--size4);
     border-bottom: var(--size1) solid var(--color-black);
