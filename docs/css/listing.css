@@ -1,0 +1,121 @@
+.body-container {
+    position: relative;
+}
+
+.side-bar {
+    font-weight: bold;
+}
+
+
+/* main filter */
+
+.filter-div-lg {
+    position: fixed;
+    background: var(--color-white);
+    width: var(--size20P);
+    height: 100vh;
+    padding: var(--size24) var(--size24) var(--size8);
+    box-shadow: var(--size1) var(--size1) var(--size10) var(--color-black);
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-header .clear-filter {
+    font-size: var(--size10);
+    text-decoration: underline;
+    margin-top: var(--size5);
+    cursor: pointer;
+    color: rgb(0, 0, 255);
+}
+
+
+/* bar icon */
+
+.filter-div-md {
+    position: fixed;
+    text-align: center;
+    width: var(--size24);
+    height: var(--size24);
+    padding: 5px;
+    font-size: var(--size16);
+    cursor: pointer;
+    left: 15%;
+}
+
+.category-selector,
+.price-selector,
+.rating-selector,
+.discount-percentage {
+    display: flex;
+    flex-direction: column;
+    margin: var(--size10) 0;
+}
+
+.filter-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+input,
+label {
+    padding: var(--size5);
+}
+
+.filter-div-md:hover {
+    border: 2px solid var(--color-icon);
+}
+
+.card .card-icons.text-icon {
+    white-space: nowrap;
+}
+
+.shopping-section {
+    margin-left: 25%;
+}
+
+
+/* the product header(name) */
+
+.card .text-div .header-top {
+    font-size: var(--size10);
+    padding: 0;
+}
+
+
+/* product price */
+
+.text-div .header-bottom {
+    font-size: var(--size10);
+    display: flex;
+}
+
+
+/* product original price */
+
+.shopping-section .selling-price {
+    margin-left: var(--size12);
+    color: var(--color-error);
+}
+
+
+/* delivery message */
+
+.product-location .message {
+    margin-left: var(--size7);
+    margin-bottom: var(--size2);
+}
+
+.location-success {
+    color: var(--color-success);
+}
+
+.location-error {
+    color: var(--color-error);
+}
+
+.location-not-known {
+    color: var(--color-info);
+}
