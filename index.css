@@ -115,6 +115,7 @@
 
 .card {
     margin: var(--size20);
+    box-shadow: 1px 1px 5px var(--color-black);
 }
 
 .card .text-div .header-top {

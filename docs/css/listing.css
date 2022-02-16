@@ -96,7 +96,6 @@ label {
 /* product original price */
 
 .shopping-section .selling-price {
-    text-decoration: line-through;
     margin-left: var(--size12);
     color: var(--color-error);
 }
