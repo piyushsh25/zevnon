@@ -97,7 +97,7 @@
     position: absolute;
     top: 10%;
     left: 35%;
-    color: rgb(14, 81, 190);
+    color: var(--color-white);
     border: var(--size1) solid var(--color-white);
     font-weight: bolder;
     padding: var(--size6) var(--size8);
@@ -115,6 +115,7 @@
 
 .card {
     margin: var(--size20);
+    box-shadow: 1px 1px 5px var(--color-black);
 }
 
 .card .text-div .header-top {

@@ -1,16 +1,41 @@
+@media only screen and (max-width: 638px) {
+    .nav-container .links {
+        margin: 0 0 0 var(--size15);
+    }
+    .body-div .body-div-content:nth-child(odd) {
+        top: 0%;
+        margin-top: 30%;
+    }
+    .nav-container .text.links .items.items-login {
+        display: none;
+    }
+}
+
 @media only screen and (max-width:940px) {
+    /* homepage */
     .body-div-content {
         font-size: 20px;
     }
-    .text.links .items.items-signup {
+    .nav-container .text.links .items.items-signup {
         display: none;
     }
     .card {
         margin: var(--size12);
     }
+    /* for product listing page */
+    .filter-div-lg {
+        display: none;
+    }
+    .shopping-section {
+        margin-left: 0
+    }
+    .body-container .filter-div-md {
+        left: 0%;
+    }
 }
 
 @media only screen and (max-width:1125px) {
+    /* home page */
     .text.links .items {
         display: none;
     }
