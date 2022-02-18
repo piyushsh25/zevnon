@@ -49,7 +49,10 @@
 
 .price-summary .price-header {
     display: flex;
-    margin-bottom: var(--size5);
+}
+
+.price-header .title {
+    margin-left: var(--size8);
 }
 
 .total-price {
@@ -63,4 +66,18 @@
 
 .price-summary .h5 {
     color: var(--color-success);
+}
+
+.button.outline {
+    margin: 0;
+    padding: 0;
+}
+
+.h4 {
+    margin-right: var(--size10);
+}
+
+.button.outline,
+.h4 {
+    display: inline-flex;
 }
