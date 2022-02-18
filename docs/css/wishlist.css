@@ -25,6 +25,11 @@
     flex-wrap: wrap;
 }
 
+.h4 {
+    margin-left: var(--size10);
+    color: rgb(4, 55, 122);
+}
+
 
 /*product in checkout bill */
 
