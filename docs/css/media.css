@@ -32,6 +32,13 @@
     .body-container .filter-div-md {
         left: 0%;
     }
+    .card.text-overlay-card.no-desc .text-div .header-top {
+        font-size: 10px;
+    }
+    .card .price-summary {
+        width: 50%;
+        background-color: black
+    }
 }
 
 @media only screen and (max-width:1125px) {
