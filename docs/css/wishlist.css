@@ -1,0 +1,31 @@
+/* increase/decrease  item */
+
+.increase-decrease {
+    display: flex;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid gray;
+    border-radius: var(--size2);
+    font-size: var(--size8);
+    margin: auto;
+    padding: var(--size3) 0;
+}
+
+.increase-decrease li:nth-child(odd) {
+    margin: 0 var(--size9);
+    cursor: pointer;
+}
+
+.line-through {
+    color: var(--color-error);
+}
+
+.product-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h4 {
+    margin-left: var(--size10);
+    color: var(--color-info);
+}
